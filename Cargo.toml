@@ -1,0 +1,3 @@
+[workspace]
+members = ["ch02_1_guessing_game", "ch03_1_variables", "ch03_2_functions", "ch03_3_branches", "ch03_4_loops", "ch03_5_challenges"]
+resolver = "2"
