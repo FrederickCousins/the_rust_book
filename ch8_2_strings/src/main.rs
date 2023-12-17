@@ -1,5 +1,5 @@
 fn main() {
-    let s = "initial contents".to_string();
+    let _s = "initial contents".to_string();
     // is equivalent to
     let s = String::from("inital contents");
     let b = " bonus contents";

@@ -10,7 +10,7 @@ fn main() {
     scores.insert(String::from("Yellow"), 50);
 
     let team_name = String::from("Blue");
-    let score = scores.get(&team_name)
+    let _score = scores.get(&team_name)
         .copied() // means we get an Option<i32> rather than Option<&i32>
         .unwrap_or(0); // so that if the key does not exist we get a defailt value
 
