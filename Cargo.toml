@@ -10,5 +10,8 @@ members = [
     "ch8_2_strings",
     "ch8_3_hashmaps",
     "ch8_4_challenges",
+    "ch9_1_panic",
+    "ch9_2_result_enums",
 ]
 resolver = "2"
+edition = "2021"
