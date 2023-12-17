@@ -2,13 +2,12 @@ use std::{
     collections::HashMap,
     io::{self, Write, Read},
     process::exit,
-    num::ParseIntError,
 };
 
 pub fn run() {
     let mut db: HashMap<String, Vec<String>> = HashMap::new();
-    db.insert(String::from("Sales"), vec!["John Doe", "Jane Doe"].iter().map(|s| s.to_string()).collect());
-    db.insert(String::from("HR"), vec!["Mohammed Ali"].iter().map(|s| s.to_string()).collect());
+    db.insert(String::from("Sales"), ["John Doe", "Jane Doe"].iter().map(|s| s.to_string()).collect());
+    db.insert(String::from("HR"), ["Mohammed Ali"].iter().map(|s| s.to_string()).collect());
 
     if prerun() {
         interface(&mut db);
@@ -150,11 +149,7 @@ fn add(db: &mut HashMap<String, Vec<String>>) {
         }
     };
 
-    if  ! sorted_depts.contains(&dept) {
-        db.insert(dept.clone(), Vec::new());
-    }
-
-    let employees = db.entry(dept.clone()).or_insert_with(Vec::new);
+    let employees = db.entry(dept.clone()).or_default();
 
     let employee: String = loop {
         println!("Enter the name of the employee");
