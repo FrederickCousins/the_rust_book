@@ -1,0 +1,5 @@
+{
+    "rust-analyzer.linkedProjects": [
+        "./ch8_4_challenges/Cargo.toml"
+    ]
+}

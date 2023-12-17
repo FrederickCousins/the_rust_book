@@ -1,3 +1,14 @@
 [workspace]
-members = ["ch02_1_guessing_game", "ch03_1_variables", "ch03_2_functions", "ch03_3_branches", "ch03_4_loops", "ch03_5_challenges"]
+members = [
+    "ch02_1_guessing_game",
+    "ch03_1_variables",
+    "ch03_2_functions",
+    "ch03_3_branches",
+    "ch03_4_loops",
+    "ch03_5_challenges",
+    "ch8_1_vectors",
+    "ch8_2_strings",
+    "ch8_3_hashmaps",
+    "ch8_4_challenges",
+]
 resolver = "2"

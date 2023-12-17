@@ -45,6 +45,22 @@ dependencies = [
 ]
 
 [[package]]
+name = "ch8_1_vectors"
+version = "0.1.0"
+
+[[package]]
+name = "ch8_2_strings"
+version = "0.1.0"
+
+[[package]]
+name = "ch8_3_hashmaps"
+version = "0.1.0"
+
+[[package]]
+name = "ch8_4_challenges"
+version = "0.1.0"
+
+[[package]]
 name = "getrandom"
 version = "0.2.11"
 source = "registry+https://github.com/rust-lang/crates.io-index"
