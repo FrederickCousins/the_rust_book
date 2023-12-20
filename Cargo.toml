@@ -6,6 +6,8 @@ members = [
     "ch03_3_branches",
     "ch03_4_loops",
     "ch03_5_challenges",
+    "ch05_1_structs",
+    "ch05_2_rectangles",
     "ch8_1_vectors",
     "ch8_2_strings",
     "ch8_3_hashmaps",
