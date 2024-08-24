@@ -77,7 +77,7 @@ name = "ch09_2_result_enums"
 version = "0.1.0"
 
 [[package]]
-name = "ch9_2_result_enums"
+name = "ch12_1_minigrep"
 version = "0.1.0"
 
 [[package]]
