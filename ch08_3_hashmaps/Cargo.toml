@@ -1,5 +1,5 @@
 [package]
-name = "ch8_2_strings"
+name = "ch08_3_hashmaps"
 version = "0.1.0"
 edition = "2021"
 

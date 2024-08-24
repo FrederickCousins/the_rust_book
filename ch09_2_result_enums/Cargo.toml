@@ -1,5 +1,5 @@
 [package]
-name = "ch9_1_panic"
+name = "ch09_2_result_enums"
 version = "0.1.0"
 edition = "2021"
 

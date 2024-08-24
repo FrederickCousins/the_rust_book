@@ -8,12 +8,13 @@ members = [
     "ch03_5_challenges",
     "ch05_1_structs",
     "ch05_2_rectangles",
-    "ch8_1_vectors",
-    "ch8_2_strings",
-    "ch8_3_hashmaps",
-    "ch8_4_challenges",
-    "ch9_1_panic",
-    "ch9_2_result_enums",
+    "ch08_1_vectors",
+    "ch08_2_strings",
+    "ch08_3_hashmaps",
+    "ch08_4_challenges",
+    "ch09_1_panic",
+    "ch09_2_result_enums",
+    "ch12_1_minigrep",
 ]
 resolver = "2"
 edition = "2021"
