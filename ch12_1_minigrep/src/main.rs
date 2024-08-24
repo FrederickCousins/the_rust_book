@@ -6,14 +6,15 @@ fn main() {
 
     let config = Config::build(&args)
         .unwrap_or_else(|err| {
-            println!("Problem parsing config, error: {err}");
+            eprintln!("Problem parsing config, error: {err}");
             process::exit(1)
         });
 
     println!("Searching for {} in file {}", config.query, config.file_path);
+    println!("Case insensitive?: {}", config.ignore_case);
 
     if let Err(e) = ch12_1_minigrep::run(config) {
-        println!("Run failed: {e}");
+        eprintln!("Run failed: {e}");
         process::exit(1)
     }
 }
